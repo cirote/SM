@@ -40,3 +40,8 @@ php artisan migrate
 ```
 chmod 777 storage/ -R && chmod 777 bootstrap/ -R
 ```
+
+## Borrar repositorio anterior de git (Si es necesario)
+```
+rm -rf .git
+```
