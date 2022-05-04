@@ -35,3 +35,8 @@ php artisan migrate
 
 
 ## Actualiar url rewrite en el panel
+
+## Modificar permisos de ficheros
+```
+chmod 777 storage/ -R && chmod 777 bootstrap/ -R
+```
